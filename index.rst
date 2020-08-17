@@ -6,6 +6,8 @@
 Welcome to the inofficial documentation of VR-N7500
 ===================================================
 
+`German/Deutsch <https://vr-n7500.readthedocs.io/de/latest/>`_.
+
 .. image:: img/vr-n7500.jpg
   :width: 400
   :alt: VR-N7500
