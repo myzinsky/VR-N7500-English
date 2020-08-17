@@ -22,7 +22,13 @@ Here is an overview of the features:
   * Cable Microphone
   * Bluetooth PTT
   * Bluetooth Microphone
-
+  
+Community
+=========
+  
+  * German Telegram Group: https://t.me/VRN7500
+  * English Facebook Group: https://www.facebook.com/groups/2285774288379471
+  * UK Facebook Group: https://www.facebook.com/groups/578663932978555
 
 .. toctree::
    :maxdepth: 2
