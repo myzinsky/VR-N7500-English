@@ -2,8 +2,8 @@ Android App
 ===========
 
 
-JSON Channel Management
------------------------
+JSON Channel-Management
+--------------------
 
 .. code-block:: JSON
 
@@ -11,20 +11,23 @@ JSON Channel Management
      "n":"Regional",
      "chs":[
         {
-           "n":"2m mobil",
+           "n":"Test1",
            "rf":"145.500",
-           "w":0,
-           "s":1,
+           "ts":6700,
+           "rs":6700,
            "id":1,
-           "p":-2
+           "p":0
         },
         {
-           "rf":"145.525",
+           "n":"Test2",
+           "rf":"145.500",  
+           "ts":7190,
+           "rs":6930,
            "w":0,
-           "s":1,
            "id":1,
-           "p":-2
-        },
+           "p":-1,
+           "td":1
+        }
         {
            "rf":"145.550",
            "w":0,
@@ -140,3 +143,16 @@ JSON Channel Management
         null
      ]
   }
+
+
+
+Legend:
+  
+* rf: receive frequency  [double]
+* tf: transmit frequency [double]
+* rs: receive subtone [int in cHz]
+* ts: transmit subtone [int in cHz]
+* w:  wide [bool]
+* s: scan [bool]
+* id: ??? [int]
+* p: ??? [int] 
